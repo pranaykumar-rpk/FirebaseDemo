@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site":"angularfirebasedemo-a08ba",
+    "public": "dist/AngularFirebaseDemo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

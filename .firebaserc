@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularfirebasedemo-a08ba": {
+      "hosting": {
+        "AngularFirebaseDemo": [
+          "angularfirebasedemo-a08ba"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularfirebasedemo-a08ba"
+  }
+}
