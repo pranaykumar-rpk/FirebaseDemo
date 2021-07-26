@@ -1,8 +1,7 @@
 <h1>Welcome to Firebase</h1>
 
-
+<p>Course list Data from Firebase Real time Database</p>
 <div class="container">
-  <h1>Welcome folks</h1>
   <table class="table table-striped table-bordered">
       <tbody>
           <tr *ngFor="let course of coursesList">
@@ -11,3 +10,28 @@
       </tbody>
   </table>
 </div>
+
+<p>Ticket Data from Firebase Firestore Database</p>
+<div class="container">
+    <table class="table table-striped table-bordered">
+        <tbody>
+            <tr *ngFor="let id of tickets">
+                <td>{{id | json}}</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
+
+  <p>Users Data from Firebase Firestore Database</p>
+<div class="container">
+    <table class="table table-striped table-bordered">
+        <tbody>
+            <tr *ngFor="let id of data">
+                <td>{{id | json}}</td>
+            </tr>
+            <br> <br>
+        </tbody>
+    </table>
+  </div>
+
